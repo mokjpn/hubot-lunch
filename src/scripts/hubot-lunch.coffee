@@ -10,7 +10,7 @@
 #   hubot lunch me     - Show the today's lunch menu
 
 fs = require('fs')
-Menu = JSON.parse(fs.readFileSync("Menu.JSON","utf-8"))
+Menu = JSON.parse(fs.readFileSync("../../Menu.JSON","utf-8"))
 #Menu = JSON.parse(MenuJ)
 #console.error(Menu)
 module.exports = (robot) ->
